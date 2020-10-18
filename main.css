@@ -8,15 +8,15 @@
 
 header{
   padding-top: 5%;
-  background-color: lightpink;
+  background-color: darkblue;
   padding-bottom: 5%;
   text-align: center;
 }
 
 main{
-  padding-top: 12%;
+  padding-top: 14%;
   background-color: lightgrey;
-  padding-bottom: 12%;
+  padding-bottom: 14%;
   text-align: center;
 }
 
