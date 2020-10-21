@@ -11,8 +11,11 @@ xmlhttp.onreadystatechange = function() {
         // textContainer[0].appendChild(cityName);
 
         weatherContainer[0].innerHTML = apiResult.name;
-        weatherContainer[1].innerHTML = apiResult.weather.icon;
+        weatherContainer[1].innerHTML = apiResult.weather[0].description;
 
+console.log(apiResult.weather[0]);
+
+console.log(apiResult);
 
     }
 };
